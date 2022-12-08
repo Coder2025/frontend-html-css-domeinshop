@@ -49,14 +49,14 @@ Zoals je kunt zien staat er een mooie afbeelding in de header. Maar we gaan je a
 - [ ] De link in de tekst moet wijzen naar de pagina `team.html`. Geef links een grijze kleur met een lijntje eronder. Dit lijntje moet verdwijnen wanneer de gebruiker er met de muis overheen hovert. _Tip:_ Zorg ervoor dat je de styling van jouw linkjes op globale wijze beschrijft.
 - [ ] Voorzie de button van styling zodat deze er zo uitziet als het voorbeeld. Check of alles er nogsteeds goed uitziet als je de buttontekst ineens heel lang maakt.
 
-### 1.5 Veelgestelde vragen
+### 1.4 Veelgestelde vragen
 ![Uitklap vragen](./assets/examples/uitklap-vragen.gif)
 
 - [ ] De veelgestelde vragen kunnen worden uitgeklapt! Hier gebruiken we het speciale `<details>`-element voor, wat het in- en uitklappen voor ons regelt. Bekijk [hier](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details) hoe je deze kunt gebruiken;
 - [ ] Gebruik de juiste styling om de vragen er net zo uit te laten zien als in het voorbeeld;
 - [ ] Zorg ervoor dat de muis veranderd in een `pointer`, wanneer de gebruiker er overeen hovert.
 
-### 1.6 Testimonials
+### 1.5 Testimonials
 Oké, terug naar onze eerste section ("Wat klanten zeggen over ons");
 - [ ] Laten we beginnen met de twee witte vlakken. Welke elementen lijken jou daarvoor geschikt? Zorg ervoor dat beide elementen een schaduw krijgen en over de gehele breedte spannen. Oh, en zorg ervoor dat ze niet tegen elkaar aangedrukt staan!
 - [ ] Plaats de tekst in de witte vlakken en zorg dat er voldoende ruimte tussen de tekst en het eind van het witte vlak ontstaat;
@@ -65,7 +65,7 @@ Oké, terug naar onze eerste section ("Wat klanten zeggen over ons");
 - [ ] _Tip:_ wil je ze netjes uitlijnen met de tekst? Spiek dan eens bij de [vertical-align](https://developer.mozilla.org/en-US/docs/Web/CSS/vertical-align)-property!
 - [ ] Ten slotte is het tijd om het `quote`-teken in te voegen. Deze afbeelding kun je vinden in de map `assets`. Om het element op de juiste plek te krijgen, heb je de `position`-property nodig. _Positioneer deze afbeelding tenopzichte van het witte vlak._ Het helpt om de tekst wat extra padding te geven zodat deze ruimte maakt voor het quote-teken.
 
-### 1.7 Footer
+### 1.6 Footer
 ... Deze laten we aan jou over! ;)
 
 ## Dummytekst
