@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&display=swap');
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+/* CSS Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Setup */
+body {
+    font-family: Poppins, sans-serif;
+    color: #1C2B32;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+h1 {
+    font-weight: 700;
+    font-size: 120px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin: 64px 0;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+input,
+button {
+    font-family: inherit;
+}
+
+a,
+a:link,
+a:visited {
+    color: #899CA0;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+/*///////////// 3.1 Header /////////////*/
+
+header {
+    background-image: url("../assets/images/mountains.jpg");
+    background-size: cover;
+    background-position: top;
+}
+
+.hero-content {
+    padding: 100px 0 200px 0;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+
+}
+
+.reg-text {
+    position: absolute;
+    top: 250px; /* positie 50 pixels onder het eerste element */
+    left: 35%;
+}
+.hero-input {
+    margin-top: 32px;
+    background-color: transparent;
+    color: #1C2B32;
+    font-size: 18px;
+    padding: 24px 32px;
+    width: 350px;
+    border: 2px solid #1C2B32;
+    border-radius: 50px 0 0 50px;
+    outline: transparent;
+}
+
+.hero-input::placeholder {
+    color: #1C2B32;
+    font-size: 18px;
+}
+
+.hero-input:focus::placeholder {
+    color: transparent;
+}
+
+.hero-btn {
+    background-color: #1C2B32;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 24px 32px;
+    border: 2px solid #1C2B32;
+    border-radius: 0 50px 50px 0;
+    outline: none;
+    margin-left: -7px;
+}
+
+.hero-btn:hover {
+    background-color: #899CA0;
+    color: #1C2B32;
+}
+
+/*///////////// 3.2 Testimonial /////////////*/
+
+.testimonial-section {
+    margin: 64px 0;
+}
+
+.testimonial-article {
+    position: relative;
+    padding: 64px 96px 64px 150px;
+    margin: 64px 0;
+    border-radius: 12px;
+    /* Shadow */
+    box-shadow: 0 8px 18px 2px rgba(24, 39, 75, 0.12),
+    0 6px 20px 4px rgba(24, 39, 75, 0.12);
+}
+
+.testimonial-quote {
+    margin-bottom: 24px;
+}
+
+.testimonial-quote-icon {
+    position: absolute;
+    left: 100px;
+    top: 64px;
+}
+
+.testimonial-avatar {
+    width: 44px;
+    height: 44px;
+    vertical-align: middle;
+}
+
+.testimonial-name {
+    display: inline;
+    margin-left: 24px;
+    font-style: italic;
+}
+
+/*///////////// 3.3 Support /////////////*/
+
+.support-section {
+    margin: 64px 0;
+}
+
+.support-img {
+    border-radius: 12px;
+    width: 100%;
+}
+
+.support-info {
+    margin: 24px 0;
+}
+
+.support-btn {
+    color: #ffffff;
+    background: #1C2B32;
+    padding: 24px 32px;
+    font-size: 14px;
+    border: 2px solid #1C2B32;
+    border-radius: 50px;
+    outline: none;
+}
+
+.support-btn:hover {
+    background-color: #899CA0;
+    color: #1C2B32;
+    cursor: pointer;
+}
+
+/*///////////// 3.4 Faq /////////////*/
+
+.faq-section {
+    margin: 64px 0;
+}
+
+.faq-collapsable {
+    padding: 24px 32px;
+    color: #ffffff;
+    background-color: #899CA0;
+    border-radius: 12px;
+}
+
+.faq-details {
+    margin-block: 24px;
+}
+
+.faq-summary {
+    margin-bottom: 10px;
+}
+
+.faq-summary:hover {
+    cursor: pointer;
+}
+
+/*///////////// 3.5 Footer /////////////*/
+
+footer {
+    background-color: #1C2B32;
+    padding-block: 32px;
+}
+
+.footer-copyright {
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+}

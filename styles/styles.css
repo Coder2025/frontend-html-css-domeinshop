@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -10,28 +12,63 @@ Table of Contents:
         3.5 Footer
 ////////////////////////////////////////////////////////////////////////*/
 
+/*(grijs #899CA0 en donkergroen #1C2B32)*/
 
-
-/*////////////////////////
-    1. Global Styles
-////////////////////////*/
+/*////////////////////////*/
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+/*////////////////////////*/
 
 
 
 /*////////////////////////
     2. Typography
 ////////////////////////*/
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #1C2B32;
+}
 
+/*h1 {*/
+/*    font-family: 'Poppins', sans-serif;*/
+/*}*/
 
-
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 /*////////////////////////
     3. Areas
 ////////////////////////*/
 
-
-
 /*///////////// 3.1 Header /////////////*/
+header {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 20px;
+    background-image: url('/assets/images/mountains.jpg');
+    background-size: cover; /* to make sure the image covers the header */
+    background-repeat: round;
+    height: 200px; /* set the height of the header */
+    text-align: center;
+}
 
+/*header {*/
+/*    background-image: url("../assets/images/mountains.jpg");*/
+/*      background-size: cover;*/
+/*      background-position: top;*/
+/*}*/
+
+/*Ik zie hier niets mee gebeuren >>>>>*/
+/*clsHeader1  {*/
+/*    padding: 150px 0 400px 0;*/
+/*    margin: 0 auto;*/
+/*    max-width: 1000px;*/
+/*    text-align: center;*/
+/*}*/
 
 
 /*///////////// 3.2 Testimonial /////////////*/

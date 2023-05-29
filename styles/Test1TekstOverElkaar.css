@@ -1,0 +1,13 @@
+.text-block1 {
+    position: absolute; /* zorg ervoor dat het element buiten de normale document flow valt */
+    top: 0; /* positie vanaf de bovenkant van het viewport */
+    left: 0; /* positie vanaf de linkerzijde van het viewport */
+    z-index: 1; /* stel het z-index niveau in op 1 */
+}
+
+.text-block2 {
+    position: absolute;
+    top: 5px; /* positie 50 pixels onder het eerste element */
+    left: 50px; /* positie 50 pixels naar rechts van het eerste element */
+    z-index: 2; /* stel het z-index niveau in op 2 om erbovenop te worden weergegeven */
+}
